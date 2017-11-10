@@ -1,0 +1,16 @@
+# taps
+tap "caskroom/cask"
+
+# brews
+brew "git"
+brew "hub"
+
+# casks
+cask "firefox"
+cask "google-chrome"
+cask "google-drive-file-stream"
+cask "atom"
+cask "iterm2"
+cask "slack"
+cask "spotify"
+cask "quicksilver"
