@@ -8,10 +8,8 @@ if [ -d $STRAP_BIN_DIR ]; then
 fi
 
 # Aliases
-alias ..="cd .."
-alias ...="cd ../../../"
 alias open_atom="/usr/local/bin/atom -n $@"
-alias goto_git="cd ~/Documents/git/"
+alias gogit="cd ~/Documents/git/"
 alias reload_profile=". ~/.bash_profile"
 alias ds_clean='find . -type f -name .DS_Store -print0 | xargs -0 rm'
 function mkd {
