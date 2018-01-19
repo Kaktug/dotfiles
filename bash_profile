@@ -10,6 +10,12 @@ fi
 # Aliases
 alias open_atom="/usr/local/bin/atom -n $@"
 alias gogit="cd ~/Documents/git/"
+alias gb="git branch"
+alias gco="git checkout"
+alias gcm="git commit --verbose -m"
+alias gs="git status"
+alias gl="git log"
+alias gd="git diff --color-words"
 alias reload_profile=". ~/.bash_profile"
 alias ds_clean='find . -type f -name .DS_Store -print0 | xargs -0 rm'
 function mkd {
