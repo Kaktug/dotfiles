@@ -8,11 +8,10 @@ if [ -d $STRAP_BIN_DIR ]; then
 fi
 
 # Aliases
-alias open_atom="/usr/local/bin/atom -n $@"
-alias gogit="cd ~/Documents/git/"
+alias gogit="cd ~/Documents/git"
 alias gb="git branch"
 alias gco="git checkout"
-alias gcm="git commit --verbose -m"
+alias gcm="git commit --verbose -S -m"
 alias gs="git status"
 alias gl="git log"
 alias gd="git diff --color-words"
