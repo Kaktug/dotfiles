@@ -8,6 +8,11 @@ if [ -d $STRAP_BIN_DIR ]; then
 fi
 
 # Aliases
+alias vpn-connect='sudo openconnect -u kaktug --authgroup=Technology -b --pid-file=/usr/local/var/run/openconnect.pid vpn.out.customink.com'
+alias vpn-disconnect='sudo kill -SIGINT $(cat /usr/local/var/run/openconnect.pid)'
+alias vpn-check='if [ -e /usr/local/var/run/openconnect.pid ]; then echo "vpn connected"; else echo "vpn disconnected";fi'
+alias rockwell="ruby ~/Library/Services/rockwell_queue_stats.rb"
+alias rockwell_snapshot="ruby ~/Library/Services/rockwell_snapshot.rb"
 alias gogit="cd ~/Documents/git"
 alias gb="git branch"
 alias gco="git checkout"
