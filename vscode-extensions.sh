@@ -7,8 +7,9 @@ declare -a packages=(
  'EditorConfig.EditorConfig'
  'file-icons.file-icons'
  'HookyQR.beautify'
- 'ms-vscode.atom-keybindings'
  'slevesque.vscode-autohotkey'
+ 'akamud.vscode-theme-onelight'
+ 'bierner.emojisense'
 )
 
 for extension in "${packages[@]}"; do
