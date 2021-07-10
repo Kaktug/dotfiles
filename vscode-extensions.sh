@@ -3,13 +3,15 @@
 
 declare -a packages=(
  'Adobe.extendscript-debug'
+ 'bierner.emojisense'
  'bowlerhatllc.vscode-nextgenas'
+ 'bowlerhatllc.vscode-swf-debug'
  'EditorConfig.EditorConfig'
  'file-icons.file-icons'
  'HookyQR.beautify'
+ 'mads-hartmann.bash-ide-vscode'
  'slevesque.vscode-autohotkey'
- 'akamud.vscode-theme-onelight'
- 'bierner.emojisense'
+ 'timonwong.shellcheck'
 )
 
 for extension in "${packages[@]}"; do
