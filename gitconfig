@@ -1,0 +1,54 @@
+[alias]
+  slog = log --pretty=oneline -n 20 --graph --abbrev-commit
+  amend = commit --amend --reuse-message=HEAD
+  contributors = shortlog --summary --numbered
+
+[auto]
+	crlf = false
+
+[branch]
+  sort = -committerdate
+
+[color]
+  ui = auto
+
+[color "branch"]
+  current = yellow reverse
+  local = yellow
+  remote = green
+
+[color "diff"]
+  meta = yellow bold
+  frag = magenta bold
+  old = red
+  new = green
+
+[color "status"]
+  added = yellow
+  changed = green
+  untracked = cyan
+
+[commit]
+	gpgsign = true
+
+[core]
+	excludesfile = ~/.gitignore_global
+	autocrlf = false
+
+[credential]
+	helper = osxkeychain
+
+[diff]
+  renames = copies
+
+[github]
+	user = kaktug
+
+[init]
+  defaultBranch = main
+
+[push]
+	default = simple
+
+
+
