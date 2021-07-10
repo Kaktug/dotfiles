@@ -1,21 +1,21 @@
 # taps
-tap "caskroom/cask"
+tap "homebrew/cask"
 
 # brews
 brew "git"
-brew "hub"
+brew "imagemagick", args:['with=little-cms2']
+brew "jq"
+brew "nodenv"
 brew "rclone"
+brew "thefuck"
+brew "vim"
 
 # casks
 cask "firefox"
-cask "google-chat"
 cask "google-chrome"
-cask "google-drive-file-stream"
 cask "gpg-suite"
 cask "hammerspoon"
-cask "karabiner-elements"
-cask "visual-studio-code"
 cask "iterm2"
-cask "slack"
-cask "spotify"
 cask "quicksilver"
+cask "slack"
+cask "vscodium"
