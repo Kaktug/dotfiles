@@ -12,3 +12,4 @@ set ignorecase  "ignore case when searching
 set smartcase   "try smart detection of casing when searching
 set hlsearch    "highlight search results
 set incsearch
+set backspace=indent,eol,start
